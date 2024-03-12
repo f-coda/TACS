@@ -18,6 +18,7 @@ CGREYEND = '\x1b[0m'
 def load_data_from_file(provided_dataset):
     # load the point data
     df = pd.read_csv(provided_dataset)
+
     df['LATITUDE-LONGITUDE-COG-SOG-TIMESTAMP-mmsi'] = list(
         map(list, zip(df['LATITUDE'], df['LONGITUDE'], df['COG'], df['SOG'], df['TIMESTAMP'], df['mmsi'])))
     grouped = df.groupby('mmsi')['LATITUDE-LONGITUDE-COG-SOG-TIMESTAMP-mmsi'].apply(list)
