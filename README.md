@@ -44,6 +44,15 @@ This repository provides a wide range of several well-known **trajectory compres
 
 ###### <em>Note: The algorithm_name parameter is arbitrary and is exclusively used for generating a distinct result file containing the aggregated similarity results of each algorithm.</em>
 
+### Dataset Format Dependency
+
+One significant drawback of the code implementation is its strict dependency on the format
+of the dataset (data_test.csv). The code is designed to work with this specific dataset format (columns),
+and any deviation from this format may result in errors or unexpected behavior. 
+Therefore, it is crucial to ensure that the dataset conforms precisely to the expected 
+format for the code to execute correctly.
+
+
 ## Cite Us
 
 If you use the above code for your research please cite our paper
