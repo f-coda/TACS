@@ -43,3 +43,17 @@ This repository provides a wide range of several well-known **trajectory compres
 ```python3 similarity.py path/to/the/original/dataset path/to/the/compressed/dataset algorithm_name```   
 
 ###### <em>Note: The algorithm_name parameter is arbitrary and is exclusively used for generating a distinct result file containing the aggregated similarity results of each algorithm.</em>
+
+## Cite Us
+
+If you use the above code for your research please cite our paper
+
+    @article{makris2021comparison,  
+      title={A comparison of trajectory compression algorithms over AIS data},  
+      author={Makris, Antonios and Kontopoulos, Ioannis and Alimisis, Panagiotis and Tserpes, Konstantinos},  
+      journal={IEEE Access},  
+      volume={9},  
+      pages={92516--92530},  
+      year={2021},  
+      publisher={IEEE}  
+    }
